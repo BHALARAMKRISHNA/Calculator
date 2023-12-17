@@ -1,0 +1,53 @@
+* {
+  background-color:#749bc2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  outline: none;
+}
+.container {
+  height: 100hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.Calcii {
+  background-color:  #394867;
+  padding: 20px;
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  border: none;
+}
+input {
+  grid-column: span 4;
+  height: 70px;
+  width: 195px;
+  border: none;
+  font-size: 40px;
+  text-align-last: end;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: #dde6ed;
+}
+button {
+  height: 50px;
+  color: white;
+  background-color: #427d9d;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 45px;
+  border-color: rgb(211, 191, 243);
+}
+.grey {
+  border-radius:45%;
+  background-color:white;
+  border: none;
+  color: black;
+}
+.eq{
+    border-radius:45%;
+  background-color:orangered;
+  border: none;
+}
